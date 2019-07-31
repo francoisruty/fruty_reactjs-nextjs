@@ -1,3 +1,4 @@
+This repository refers to article https://fruty.io/2019/07/31/building-a-scalable-react-app-with-next-js/
 
 ### Procedure
 
