@@ -21,13 +21,19 @@ exit
 Install dependencies for front and back:
 
 docker-compose run front /bin/sh
+
 cd /home/app
+
 npm install
+
 exit
 
 docker-compose run back /bin/sh
+
 cd /home/app
+
 npm install
+
 exit
 
 docker-compose up -d
