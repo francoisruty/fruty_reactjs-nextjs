@@ -53,7 +53,9 @@ you entered in the database during initial setup! This means the front successfu
 ("back" docker container), which itself successfully connects to the DB.
 
 - docker-compose exec front /bin/sh
+
 cd /home/app/.next/static/development/pages
+
 You can see that Next.js (using webpack) compiled 1 bundle per page, which enables lazy-loading!
 
 
