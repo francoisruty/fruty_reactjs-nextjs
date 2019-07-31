@@ -9,9 +9,13 @@ This repository refers to article https://fruty.io/2019/07/31/building-a-scalabl
 Create DB table:
 
 docker-compose exec postgres /bin/bash
+
 psql --username=fruty
+
 \i /init/init.sql
+
 \q
+
 exit
 
 Install dependencies for front and back:
